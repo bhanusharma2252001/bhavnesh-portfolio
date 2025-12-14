@@ -1,16 +1,5 @@
-# Bhavnesh Sharma — Backend Developer Portfolio
+# Bhavnesh Sharma — Portfolio
 
-This repository contains the source code for my personal portfolio website, built using **React**, **Vite**, and **Tailwind CSS**.
+This repository contains the source code for my personal portfolio website.
 
-The portfolio highlights my experience as a **Backend Developer**, focusing on scalable systems, microservices, and production-ready backend architectures.
-
-🔗 **Live Website:** https://bhavnesh.site/
-
----
-
-## 🚀 Tech Stack
-
-- **Frontend:** React + Vite
-- **Styling:** Tailwind CSS (dark mode only)
-- **Language:** JavaScript (ESM)
-- **Build Tool:** Vite
+ **Live Website:** https://bhavnesh.site
