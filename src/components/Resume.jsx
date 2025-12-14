@@ -11,7 +11,7 @@ export default function Resume() {
         </p>
 
         <a
-          href="/Bhavnesh_Sharma_Backend_Developer.pdf"
+          href="/Resume_NodeJS_Bhavnesh.pdf"
           download
           className="inline-block bg-white text-gray-900 px-6 py-3 rounded font-medium hover:bg-gray-200"
         >
