@@ -4,7 +4,7 @@ const projects = [
         description:
             "Subscription-based used-book marketplace with chat, search, community discussions, and subscriptions.",
         tech: "Node.js, Express.js, MongoDB, Redis, RabbitMQ, Elasticsearch, AWS S3",
-        link: null, // TODO: add project link if public
+        link: "https://rebookit.club/",
     },
     {
         title: "Led360 — Roadside Assistance App",
