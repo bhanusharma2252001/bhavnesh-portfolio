@@ -8,7 +8,7 @@ export default function Experience() {
         {/* Collectcent */}
         <div>
           <h3 className="font-semibold text-lg">
-            Software Engineer — Collectcent Digital Media Pvt Ltd
+            Software Engineer — Collectcent Digital Media
           </h3>
           <p className="text-sm text-gray-500 mb-2">
             Dec 2025 – Present · Gurugram, Haryana
