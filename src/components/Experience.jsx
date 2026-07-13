@@ -4,6 +4,23 @@ export default function Experience() {
       <h2 className="text-3xl font-bold mb-10">Experience</h2>
 
       <div className="space-y-10">
+
+        {/* Collectcent */}
+        <div>
+          <h3 className="font-semibold text-lg">
+            Software Engineer — Collectcent Digital Media Pvt Ltd
+          </h3>
+          <p className="text-sm text-gray-500 mb-2">
+            Dec 2025 – Present · Gurugram, Haryana
+          </p>
+          <ul className="list-disc list-inside text-gray-400 space-y-1">
+            <li>
+             Currently managing their internal adtech platform
+            </li>
+          </ul>
+        </div>
+
+        
         {/* Loop Methods */}
         <div>
           <h3 className="font-semibold text-lg">
