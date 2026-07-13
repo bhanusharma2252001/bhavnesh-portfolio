@@ -1,88 +1,134 @@
 const projects = [
-    {
-        title: "Rebookit — Used Book Marketplace",
-        description:
-            "Subscription-based used-book marketplace with chat, search, community discussions, and subscriptions.",
-        tech: "Node.js, Express.js, MongoDB, Redis, RabbitMQ, Elasticsearch, AWS S3",
-        link: "https://rebookit.club/",
-    },
-    {
-        title: "Led360 — Roadside Assistance App",
-        description:
-            "Backend system for real-time roadside assistance bookings for Android, iOS, and Admin panel.",
-        tech: "NestJS, PostgreSQL, BullMQ, Redis, AWS S3",
-        link: "https://play.google.com/store/apps/details?id=com.led.customer&pli=1"
-    },
-    {
-        title: "Procureright — Procurement Management Platform",
-        description:
-            "Procurement platform to streamline workflows for buyers, vendors, and procurement parnter  (platform)",
-        tech: "Node.js, Mongodb, BullMQ, AWS",
-        link: "https://buyer.procureright.in/"
-    },
+  {
+    title: "Rebookit — Used Book Marketplace",
+    description:
+      "Subscription-based marketplace enabling users to buy, sell, and exchange used books with real-time chat, community discussions, subscriptions, and advanced search.",
+    tech: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redis",
+      "RabbitMQ",
+      "Elasticsearch",
+      "AWS S3",
+    ],
+    highlights: [
+      "Designed scalable REST APIs",
+      "Integrated real-time chat",
+      "Implemented Elasticsearch-powered search",
+    ],
+    link: "https://rebookit.club/",
+  },
+  {
+    title: "Led360 — Roadside Assistance",
+    description:
+      "Backend platform powering real-time roadside assistance for Android, iOS, and Admin applications.",
+    tech: [
+      "NestJS",
+      "PostgreSQL",
+      "BullMQ",
+      "Redis",
+      "AWS S3",
+    ],
+    highlights: [
+      "Built booking workflows",
+      "Queue-based background processing",
+      "REST APIs for multiple clients",
+    ],
+    link:
+      "https://play.google.com/store/apps/details?id=com.led.customer&pli=1",
+  },
+  {
+    title: "ProcureRight — Procurement Platform",
+    description:
+      "Enterprise procurement platform connecting buyers, vendors, and procurement partners through a centralized workflow system.",
+    tech: [
+      "Node.js",
+      "MongoDB",
+      "BullMQ",
+      "AWS",
+    ],
+    highlights: [
+      "Workflow automation",
+      "Role-based access control",
+      "Vendor management system",
+    ],
+    link: "https://buyer.procureright.in/",
+  },
 ];
 
 export default function Projects() {
-    return (
-        <section
-            id="projects"
-            className="bg-gray-100 dark:bg-gray-950 py-24"
-        >
-            <div className="max-w-5xl mx-auto px-6">
-                <h2 className="text-3xl font-bold mb-10">
-                    Projects
-                </h2>
+  return (
+    <section
+      id="projects"
+      className="bg-gray-100 dark:bg-gray-950 py-24"
+    >
+      <div className="max-w-5xl mx-auto px-6">
+        <h2 className="text-3xl font-bold mb-4">
+          Featured Projects
+        </h2>
 
-                <div className="grid md:grid-cols-2 gap-8">
-                    {projects.map((project) => (
-                        <div
-                            key={project.title}
-                            className="
-                bg-white dark:bg-gray-900
-                border border-gray-200 dark:border-gray-800
-                shadow-sm dark:shadow-none
-                rounded-lg p-6
-                transition
-                hover:shadow-sm
-              "
-                        >
-                            <h3 className="text-lg font-semibold mb-2">
-                                {project.title}
-                            </h3>
+        <p className="max-w-2xl text-gray-600 dark:text-gray-400 leading-7 mb-12">
+          A selection of production applications I've helped build, ranging
+          from marketplaces and enterprise platforms to real-time backend
+          systems.
+        </p>
 
-                            <p className="text-gray-600 dark:text-gray-400 mb-4">
-                                {project.description}
-                            </p>
+        <div className="grid gap-8 md:grid-cols-2">
+          {projects.map((project) => (
+            <div
+              key={project.title}
+              className="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 transition-all duration-200 hover:border-gray-300 dark:hover:border-gray-700 hover:-translate-y-1"
+            >
+              <h3 className="text-xl font-semibold mb-3">
+                {project.title}
+              </h3>
 
-                            {/* Highlights */}
-                            {/* <ul className="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 mb-4 space-y-1">
-                {project.highlights.map((point, index) => (
-                  <li key={index}>{point}</li>
+              <p className="text-gray-600 dark:text-gray-400 leading-7 mb-5">
+                {project.description}
+              </p>
+
+              <div className="mb-5">
+                <h4 className="text-sm font-medium mb-2 text-gray-900 dark:text-white">
+                  Highlights
+                </h4>
+
+                <ul className="space-y-2">
+                  {project.highlights.map((item) => (
+                    <li
+                      key={item}
+                      className="flex items-start gap-2 text-sm text-gray-600 dark:text-gray-400"
+                    >
+                      <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-500 flex-shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="flex flex-wrap gap-2 mb-6">
+                {project.tech.map((tech) => (
+                  <span
+                    key={tech}
+                    className="rounded-md border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 px-3 py-1 text-xs text-gray-700 dark:text-gray-300"
+                  >
+                    {tech}
+                  </span>
                 ))}
-              </ul> */}
+              </div>
 
-                            {/* Tech stack */}
-                            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-                                <span className="font-medium">Tech:</span>{" "}
-                                {project.tech}
-                            </p>
-
-                            {/* Optional link */}
-                            {project.link && (
-                                <a
-                                    href={project.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-blue-500 hover:underline text-sm"
-                                >
-                                    View Project →
-                                </a>
-                            )}
-                        </div>
-                    ))}
-                </div>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center font-medium text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                View Project →
+              </a>
             </div>
-        </section>
-    );
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
-
