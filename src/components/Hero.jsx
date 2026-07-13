@@ -10,7 +10,7 @@ export default function Hero() {
         </h2>
         <p className="text-gray-400 mb-8">
           Building scalable backend systems, APIs, and distributed services
-          used in real production environments.
+          used in production environments.
         </p>
        <a
     href="#projects"
