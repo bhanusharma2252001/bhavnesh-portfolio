@@ -3,6 +3,7 @@ const skills = {
   Databases: ["MongoDB", "PostgreSQL", "Redis", "Elasticsearch"],
   Messaging: ["RabbitMQ", "BullMQ"],
   DevOps: ["Docker", "AWS", "CI/CD", "Linux", "Nginx"],
+   Monitoring: ["ELK Stack", "Pino"],
 };
 
 export default function Skills() {
