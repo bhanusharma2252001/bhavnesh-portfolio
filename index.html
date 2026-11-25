@@ -1,57 +1,317 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-
-  <!-- Canonical -->
-  <link rel="canonical" href="https://bhavnesh.site/" />
-
-  <!-- Favicons -->
-  <link rel="icon" href="/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Primary SEO -->
-  <title>Bhavnesh Sharma | Backend Developer | Node.js, NestJS</title>
-  <meta name="description"
-    content="Backend Developer specializing in Node.js, NestJS, microservices, and scalable backend systems. View projects and resume." />
-
-  <!-- Open Graph (WhatsApp, LinkedIn, Facebook) -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bhavnesh.site/" />
-  <meta property="og:title" content="Bhavnesh Sharma | Backend Developer" />
-  <meta property="og:description"
-    content="Building scalable backend systems, microservices, and optimized APIs using Node.js and NestJS." />
-  <meta property="og:image" content="https://bhavnesh.site/og.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:type" content="image/png" />
-
-  <!-- Twitter / X -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Bhavnesh Sharma | Backend Developer" />
-  <meta name="twitter:description"
-    content="Backend Developer specializing in Node.js, NestJS, microservices, and system optimization." />
-  <meta name="twitter:image" content="https://bhavnesh.site/og.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bhavnesh Sharma — Senior Backend Engineer</title>
+  <meta name="description" content="Bhavnesh Sharma — Senior backend engineer building production systems with Node.js, NestJS, MongoDB, PostgreSQL, Redis, Kubernetes and AWS.">
+  <meta property="og:title" content="Bhavnesh Sharma — Senior Backend Engineer">
+  <meta property="og:description" content="Backend systems, distributed architecture and DevOps. 5 years shipping production platforms.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://bhavnesh.site/">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bhavnesh.site/">
+  <meta property="og:image" content="https://bhavnesh.site/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bhavnesh Sharma — Senior Backend Engineer">
+  <meta name="twitter:description" content="Backend systems, distributed architecture and DevOps. 5 years shipping production platforms.">
+  <meta name="twitter:image" content="https://bhavnesh.site/og.png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17773537736"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'AW-17773537736');
+  </script>
+  <link rel="stylesheet" href="/src/style.css">
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17773537736"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-
-  gtag('config', 'AW-17773537736');
-</script>
-
 <body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="logo"><span class="mono">~/</span>bhavnesh</a>
+      <nav>
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#open-source">Open source</a>
+        <a href="#skills">Stack</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
 
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero wrap">
+      <div class="hero-text">
+        <p class="status"><span class="dot"></span>Open to senior backend roles</p>
+        <h1>I design and run the backends <span class="accent">products depend on.</span></h1>
+        <p class="lead">
+          I'm Bhavnesh Sharma, a backend engineer based in Delhi NCR with 5 years of experience building production systems
+          in Node.js, NestJS and TypeScript. I've owned platforms end to end: data modelling, APIs, queues, search,
+          real-time features, cloud deployment, CI/CD and observability.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="mailto:bhanusharma252001@gmail.com">Get in touch</a>
+          <a class="btn" href="/resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
+          <a class="btn ghost" href="https://github.com/bhanusharma2252001" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="https://avatars.githubusercontent.com/u/51045895?v=4" alt="Bhavnesh Sharma" width="96" height="96">
+        <div class="term">
+          <div class="term-bar"><i></i><i></i><i></i></div>
+          <pre><span class="c">$</span> whoami
+Bhavnesh Sharma — Senior Backend Engineer
+<span class="c">$</span> cat focus.txt
+→ Distributed systems &amp; microservices
+→ APIs, queues, search, real-time
+→ AWS · Docker · Kubernetes · CI/CD
+<span class="c">$</span> currently
+Software Engineer @ Collectcent<span class="cursor">▋</span></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="wrap stats">
+      <div><strong>5 yrs</strong><span>building production backends</span></div>
+      <div><strong>1M+</strong><span>products processed by a scraper I led</span></div>
+      <div><strong>30K+</strong><span>products in a reselling system I built from scratch</span></div>
+      <div><strong>20K+</strong><span>vendors on that same platform</span></div>
+    </section>
+
+    <!-- WHAT I DO -->
+    <section class="wrap">
+      <p class="kicker">What I bring</p>
+      <h2>End-to-end ownership, from schema to production.</h2>
+      <div class="pillars">
+        <article>
+          <div class="icon">⌘</div>
+          <h3>System design &amp; APIs</h3>
+          <p>I design REST APIs, data models and service boundaries. I've built authentication and RBAC, presigned-URL uploads, payments with Stripe, and modular NestJS codebases that teams can grow.</p>
+        </article>
+        <article>
+          <div class="icon">⇄</div>
+          <h3>Async &amp; real-time</h3>
+          <p>I move slow work off the request path with BullMQ, RabbitMQ and NATS. I've built WebSocket chat, scheduled report syncs and event-driven microservices.</p>
+        </article>
+        <article>
+          <div class="icon">◎</div>
+          <h3>Data, search &amp; performance</h3>
+          <p>I work with MongoDB replica sets and aggregation pipelines, PostgreSQL through Prisma and TypeORM, Redis caching, and Elasticsearch for full-text search with faceted filtering.</p>
+        </article>
+        <article>
+          <div class="icon">▲</div>
+          <h3>DevOps &amp; reliability</h3>
+          <p>I ship with Docker, Kubernetes, Nginx and PM2 on AWS, using GitHub Actions for CI/CD. I run backups and monitoring, and the ELK stack for logs and failure-rate tracking.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CASE STUDIES -->
+    <section id="work" class="wrap">
+      <p class="kicker">Selected work</p>
+      <h2>Case studies</h2>
+
+      <article class="case">
+        <div class="case-meta">
+          <span class="tag-pill">Marketplace · Lead backend</span>
+          <span class="date">May 2025 – Aug 2025 · Loop Methods</span>
+        </div>
+        <h3>Rebookit — subscription-based used-book marketplace</h3>
+        <p class="case-lead">One backend serving web, mobile and admin apps. Readers buy and sell books, subscribe, join community discussions and chat with each other in real time.</p>
+        <div class="flow" aria-label="Rebookit architecture">
+          <span>Web · Mobile · Admin</span><b>→</b><span>Nginx</span><b>→</b><span class="hl">NestJS API</span><b>→</b>
+          <span>MongoDB replica set</span><span>Elasticsearch</span><span>WebSocket gateway</span><b>→</b><span>ELK monitoring</span>
+        </div>
+        <div class="case-grid">
+          <div><h4>Challenge</h4><p>Buyers and sellers needed to find books quickly and talk to each other directly. The platform had to stay online with a very small team running it.</p></div>
+          <div><h4>What I built</h4>
+            <ul>
+              <li>Real-time buyer–seller chat over WebSockets with low-latency, two-way messaging</li>
+              <li>Full-text search and faceted filtering in Elasticsearch</li>
+              <li>MongoDB replica sets for redundancy and automatic failover</li>
+              <li>Centralised ELK logging that tracks API failure rates and helps debug production issues</li>
+            </ul>
+          </div>
+          <div><h4>Outcome</h4><p>The platform went to production on AWS with Docker, PM2 and Nginx. Backups, monitoring and CI/CD were in place, and I mentored junior developers along the way.</p></div>
+        </div>
+        <div class="tags"><span>NestJS</span><span>TypeScript</span><span>MongoDB</span><span>WebSockets</span><span>Elasticsearch</span><span>ELK</span><span>Docker</span><span>AWS</span></div>
+      </article>
+
+      <article class="case">
+        <div class="case-meta">
+          <span class="tag-pill">Mobility · Backend &amp; DevOps</span>
+          <span class="date">Dec 2024 – Apr 2025</span>
+        </div>
+        <h3>Led360 — roadside assistance platform</h3>
+        <p class="case-lead">The backend and admin panel for an on-demand towing service. Many users book at the same time by choosing pickup and drop-off points.</p>
+        <div class="flow" aria-label="Led360 architecture">
+          <span>Mobile app · Admin</span><b>→</b><span class="hl">NestJS API</span><b>→</b><span>PostgreSQL</span><span>Redis cache</span><span>BullMQ workers</span><span>AWS S3</span>
+        </div>
+        <div class="case-grid">
+          <div><h4>Challenge</h4><p>Many bookings arrive at once, background work has to run reliably, and releases need to be repeatable across environments.</p></div>
+          <div><h4>What I built</h4>
+            <ul>
+              <li>Background jobs on BullMQ queues backed by Redis, plus Redis caching</li>
+              <li>A relational data model in PostgreSQL and file storage on S3</li>
+              <li>Docker images for the backend and frontend so every environment matches</li>
+              <li>GitHub Actions pipelines that automate builds, tests and deployments</li>
+            </ul>
+          </div>
+          <div><h4>Outcome</h4><p>Releases became automated and more reliable, with less manual deployment work and no more "works on my machine" problems.</p></div>
+        </div>
+        <div class="tags"><span>NestJS</span><span>PostgreSQL</span><span>BullMQ</span><span>Redis</span><span>AWS S3</span><span>Docker</span><span>GitHub Actions</span></div>
+      </article>
+
+      <article class="case">
+        <div class="case-meta">
+          <span class="tag-pill">B2B SaaS · Backend</span>
+          <span class="date">Jan 2022 – Oct 2022</span>
+        </div>
+        <h3>Procureright — procurement management platform</h3>
+        <p class="case-lead">An end-to-end procurement system that coordinates buyers, vendors and procurement partners on one platform.</p>
+        <div class="flow" aria-label="Procureright architecture">
+          <span>Buyers · Vendors · Partners</span><b>→</b><span>Nginx</span><b>→</b><span class="hl">Node.js API · PM2</span><b>→</b><span>MongoDB</span><span>Stripe</span><span>S3 presigned uploads</span>
+        </div>
+        <div class="case-grid">
+          <div><h4>Challenge</h4><p>Filtering and reporting were slow on large datasets, payments had to be secure, and users needed to upload large files.</p></div>
+          <div><h4>What I built</h4>
+            <ul>
+              <li>Tuned MongoDB aggregation pipelines for large-scale filtering and reporting</li>
+              <li>Stripe payment integration following secure payment practices</li>
+              <li>Presigned-URL uploads so large files go straight to storage, bypassing the API</li>
+              <li>AWS deployment behind an Nginx reverse proxy, with PM2 for process management</li>
+            </ul>
+          </div>
+          <div><h4>Outcome</h4><p>Response times dropped on high-volume reports, and procurement work became easier to coordinate.</p></div>
+        </div>
+        <div class="tags"><span>Node.js</span><span>MongoDB</span><span>Stripe</span><span>AWS</span><span>Nginx</span><span>PM2</span></div>
+      </article>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="wrap">
+      <p class="kicker">Career</p>
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li>
+          <div class="tl-head"><h3>Software Engineer · <span>Collectcent Digital Media</span></h3><span class="date">Dec 2025 – Present · Gurugram</span></div>
+          <ul>
+            <li>Own the company's internal adtech platform, built with Next.js and Laravel.</li>
+            <li>Integrated the Google Ads API so campaigns can be managed from inside the platform.</li>
+            <li>Built scheduled syncing of campaign performance reports across several dimensions.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="tl-head"><h3>Backend Developer · <span>Loop Methods</span></h3><span class="date">Mar 2024 – Aug 2025 · Noida</span></div>
+          <ul>
+            <li>Lead backend engineer for the Rebookit marketplace, from architecture to production.</li>
+            <li>Owned AWS infrastructure: Docker, PM2, Nginx, backups, monitoring and logging.</li>
+            <li>Set up containerisation and CI/CD, and mentored junior developers.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="tl-head"><h3>Backend Developer · <span>Perfectiongeeks Technologies</span></h3><span class="date">Mar 2022 – Feb 2024 · Gurugram</span></div>
+          <ul>
+            <li>Led development of a large-scale web scraper covering 1M+ e-commerce products.</li>
+            <li>Built an e-commerce reselling system from scratch for 30K+ products and 20K+ vendors.</li>
+            <li>Designed REST APIs, database architecture, and authentication and authorisation.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="tl-head"><h3>Backend Developer Intern · <span>Bluehelmet Pvt Ltd</span></h3><span class="date">Nov 2021 – Feb 2022 · Delhi</span></div>
+          <ul>
+            <li>Built a job-portal backend with REST APIs, JWT authentication and PostgreSQL.</li>
+            <li>Integrated payments, WhatsApp, SMS and email notification services.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- OPEN SOURCE -->
+    <section id="open-source" class="wrap">
+      <p class="kicker">On GitHub</p>
+      <h2>Open source &amp; side builds</h2>
+      <div class="repos">
+        <a class="repo" href="https://github.com/bhanusharma2252001/ticketing" target="_blank" rel="noopener">
+          <div class="repo-top"><span class="repo-name">ticketing</span><span class="lang ts">TypeScript</span></div>
+          <p>An event-ticketing backend split into microservices: auth, tickets, orders, payments and expiration. Services talk through NATS Streaming events. Each one has its own MongoDB, uses optimistic concurrency, and handles expiry with Bull and Redis. It runs on Kubernetes with an ingress, Skaffold for local development, and GitHub Actions for per-service tests and deploys.</p>
+          <div class="tags"><span>Microservices</span><span>NATS</span><span>Kubernetes</span><span>Skaffold</span><span>Stripe</span><span>CI/CD</span></div>
+        </a>
+        <a class="repo" href="https://github.com/bhanusharma2252001/book-store-backend" target="_blank" rel="noopener">
+          <div class="repo-top"><span class="repo-name">book-store-backend</span><span class="lang ts">TypeScript</span></div>
+          <p>A book-store API with Author, Admin and Retail user roles, purchase history and revenue tracking for authors. Email notifications go out asynchronously through RabbitMQ. It also uses Redis, Stripe payments, Swagger docs and rotating Winston logs.</p>
+          <div class="tags"><span>Express</span><span>Prisma</span><span>RabbitMQ</span><span>Redis</span><span>Stripe</span><span>Swagger</span></div>
+        </a>
+        <a class="repo" href="https://github.com/bhanusharma2252001/vendify-assignment" target="_blank" rel="noopener">
+          <div class="repo-top"><span class="repo-name">vendify-assignment</span><span class="lang ts">TypeScript</span></div>
+          <p>A multi-tenant NestJS API with company admins and role-based user management. It uses Passport (local and JWT) for login, bcrypt for passwords, and Prisma with seed data. It starts with a single Docker Compose command.</p>
+          <div class="tags"><span>NestJS</span><span>Prisma</span><span>Passport JWT</span><span>RBAC</span><span>Docker Compose</span></div>
+        </a>
+        <a class="repo" href="https://github.com/bhanusharma2252001/course-management" target="_blank" rel="noopener">
+          <div class="repo-top"><span class="repo-name">course-management</span><span class="lang ts">TypeScript</span></div>
+          <p>A NestJS and MongoDB API for categories, subcategories and courses. It has DTO validation, text-index search, pagination, filtering, sorting and soft deletes, plus aggregation endpoints and checks that related records stay consistent.</p>
+          <div class="tags"><span>NestJS</span><span>MongoDB</span><span>Aggregation</span><span>Winston</span></div>
+        </a>
+      </div>
+      <p class="more"><a href="https://github.com/bhanusharma2252001?tab=repositories" target="_blank" rel="noopener">See all repositories on GitHub →</a></p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="wrap">
+      <p class="kicker">Toolbox</p>
+      <h2>Tech stack</h2>
+      <div class="skills">
+        <div><h4>Languages &amp; frameworks</h4><div class="tags"><span>TypeScript</span><span>JavaScript</span><span>Node.js</span><span>NestJS</span><span>Express</span><span>Next.js</span><span>React</span><span>Redux</span></div></div>
+        <div><h4>Databases</h4><div class="tags"><span>MongoDB</span><span>PostgreSQL</span><span>Redis</span><span>Elasticsearch</span></div></div>
+        <div><h4>Messaging &amp; async</h4><div class="tags"><span>BullMQ</span><span>RabbitMQ</span><span>NATS</span><span>WebSockets</span><span>Cron jobs</span></div></div>
+        <div><h4>Cloud &amp; DevOps</h4><div class="tags"><span>AWS (EC2, S3, RDS, IAM)</span><span>Docker</span><span>Kubernetes</span><span>Nginx</span><span>PM2</span><span>GitHub Actions</span><span>Linux</span></div></div>
+        <div><h4>Observability</h4><div class="tags"><span>ELK stack</span><span>Winston</span><span>Monitoring</span></div></div>
+        <div><h4>Data access</h4><div class="tags"><span>Mongoose</span><span>Prisma</span><span>TypeORM</span><span>Sequelize</span></div></div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="wrap edu">
+      <p class="kicker">Education</p>
+      <div class="edu-row">
+        <div><h3>Bachelor of Computer Applications</h3><p class="muted">Subharti University, Meerut</p></div>
+        <span class="date">2018 – 2021</span>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="wrap contact">
+      <h2>Building something that needs a solid backend?</h2>
+      <p class="lead">I'm looking for senior backend and platform roles. Email is the quickest way to reach me.</p>
+      <div class="actions center">
+        <a class="btn primary" href="mailto:bhanusharma252001@gmail.com">bhanusharma252001@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/bhavnesh-sharma-208134177" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="btn" href="https://github.com/bhanusharma2252001" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span>© <span id="year"></span> Bhavnesh Sharma</span>
+    <span class="mono">Delhi NCR, India</span>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: 0.12 });
+    document.querySelectorAll('section > *, .case, .repo, .timeline li').forEach(el => { el.classList.add('reveal'); io.observe(el); });
+  </script>
+</body>
 </html>
